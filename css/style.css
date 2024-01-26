@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+header{
+    width:110vw;
+    height: 200px;
+    background-color: #3F4261;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header img{
+    margin: 20px 0px 0px 20px;
+}
+
+header section{
+    width: 20%;
+    height: auto;
+}
+header nav{
+    width: 80;
+}
+
+nav ul{
+    display:flex;
+    justify-content:left;
+    flex-direction:row;
+    gap: 20px;
+}
+nav li {
+    width: 150px;
+    height: 50px;
+    background-color: #801336;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+nav a{
+    color:#fff;
+    text-decoration: none;
+}
+a{
+    color: white;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url('../img/south-africa.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+h1,h3, h4 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 5px;
+  font-style: Lato;
+}
+h1 {
+    font-size: 40px;
+}
+h2{
+    color: white;
+}
+#green-font{
+    color: #73ff7f;
+
+}
+footer {
+    background-color: #373A55;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 125vw;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+}
+#title{
+    position:relative;
+    top: 150px;
+}
+#title-work{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#fp {
+    position: relative;
+    left: 140px;
+    top: 250px;
+    margin-bottom: 500px;
+    border-radius: 20px;
+}
+#education {
+    position: relative;
+    top: -220px;
+    left: -28px;
+}
+#about-me {
+    margin: 20px;
+    width: 150px;
+    height: 50px;
+    background-color: #801336;
+    position: relative;
+    top: -220px;
+    left:162px;
+}
+#about-me-box {
+    width: 800px;
+    height: 720px;
+    background-color: #252637;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#about-title {
+    position: relative;
+    left: 40px;
+    top: 30px;
+}
+#about-text {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+    left: 80px;
+    top: 100px;
+}
+img[alt="round-photo"] {
+     border-radius: 150px;
+     position: relative;
+     left: 80px;
+     top: 150px;
+     max-height: 250px;
+     max-width: 250px;
+}
+#email-me {
+    margin: 20px;
+    width: 130px;
+    height: 50px;
+    background-color: #555AB2;
+    position: relative;
+    top: 120px;
+    left:300px;
+}
+#pdf{
+    margin-bottom: 300px;
+    width: 160px;
+    height: 50px;
+    background-color: #555AB2;
+    position: relative;
+    top: 50px;
+    left:300px;
+}
+.black-font {
+    color: #000000;
+}
+.work-box {
+    height: 500px;
+    width: 800px;
+    background-color: white;
+    margin-bottom: 100px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+#margin-web {
+    margin-bottom: 200px;
+}
+#purple {
+    background-color: #555AB2;
+}
+.work-title{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 550px;
+    top: -480px;
+    align-items: flex-start;
+}
+.work-text{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 550px;
+    top: -450px;
+    align-items: flex-start;
+}
+img[alt="pink-goose"]{
+    height: 500px;
+}
+img[alt="mastermind"]{
+    height: 500px;
+}
+img[alt="website-ROC"]{
+    height: 500px;
+}
+@media screen and (max-width: 500px) {
+    header {
+        flex-direction: column !important;
+        height: 600px;
+    }
+    footer {
+        height: 300px;
+    }
+    #footer-text {
+        position: relative;
+        top: -80px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    #home{
+        height: 700px;
+    }
+    #home-block img {
+        position: relative;
+        left: -100px;
+    }
+    #home-block h1 {
+        font-size: 30px !important;
+        left: 40px !important;
+    }
+    #home-block h3 {
+        font-size: 20px !important;
+        left: -110px !important;
+        top: 320px !important;
+    }
+    #home-block h4 {
+        font-size: 15px !important;
+        left: -110px !important;
+        top: 360px !important;
+    }
+    #education {
+        left: 0px;
+    }
+    #about-me {
+        left: 115px;
+    }
+    #about-me-box {
+        width: 475px;
+        height: 1000px;
+        flex-direction: column;
+        align-items: center;
+    }
+    #about-title {
+        left: 155px;
+    }
+    #about-text {
+        display: flex;
+        left: 10px;
+    }
+    #email-me {
+        left: -130px;
+        top: 300px;
+    }
+    #pdf {
+        left: 125px;
+    }
+    ul {
+        flex-direction: column !important;
+    }
+    nav div {
+        display:none;
+    }
+        nav svg{
+            display: block
+        }
+    .work-box{
+        height: 800px;
+        width: 473px;
+        position: relative;
+        border-top-right-radius: 0px; 
+        border-bottom-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+    }
+    .work-box img{
+        max-height: 500px;
+        max-height: 500px;
+        position: relative;
+        left: 0px;
+    }
+    .work-title{
+        top: 40px;
+        left: 60px;
+    }
+    .work-text{
+        position: relative;
+        top: 50px;
+        left: 60px;
+    }
+    img[alt="sticker-developer"] {
+        max-width: 250px;
+        
+    }
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+img[alt="front-image"] {
+    max-height: 80%;
+    max-width: 80%;
+    box-shadow: 0 12px 32px rgb(0, 0, 0);
+}
+#home-block{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    padding-bottom: 100px;
+    left: 150px;
+    flex-direction: column;
+    
+}
+#home-block h1 {
+    position: absolute;
+    font-size: 150px;;
+    top: 280px;
+    left: 400px;
+    z-index: 1; 
+}
+#home-block h3 {
+    position: absolute;
+    font-size: 30px;;
+    left: 360px;
+    z-index: 1;
+}
+#home-block h4 {
+    position: absolute;
+    font-size: 25px;
+    left: 340px;
+    top: 50px;
+    z-index: 1;
+}
+img[alt="sticker-developer"]{
+    position: relative;
+    top: -40px;
+    left: 150px;
+    padding-bottom: 50px;;
+}
